@@ -11,13 +11,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDwdco2UuLbJwammTGJ4_VeDJ8i1VoX0CY",
-  authDomain: "super-chat-ad691.firebaseapp.com",
-  projectId: "super-chat-ad691",
-  storageBucket: "super-chat-ad691.appspot.com",
-  messagingSenderId: "607527713508",
-  appId: "1:607527713508:web:47f62cc418eb9792c74af1",
-  measurementId: "G-7K4RXX89RJ"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain:  process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket:  process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_MESSAGING_APP_ID,
+  measurementId:  process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 })
 
 const auth = firebase.auth();
