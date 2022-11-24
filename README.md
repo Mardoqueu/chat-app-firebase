@@ -6,7 +6,9 @@
   </a>
 </p>
 
-> A simple fullstack chat demo with  Firebase.
+>  feature-complete chat app with React & Firebase
+
+### ✨ [Demo](https://chat-app-firebase-gold.vercel.app/)
 
 ## Install
 
@@ -28,8 +30,9 @@ npm run test
 
 ## Author
 
-👤 **Mardoqueu**
+👤 **Mardoqueu Sousa**
 
+* Website: https://react-portfolio-website-indol.vercel.app/
 * Twitter: [@SousaMardoqueu](https://twitter.com/SousaMardoqueu)
 * Github: [@mardoqueu](https://github.com/mardoqueu)
 * LinkedIn: [@mardoqueu-sousa](https://linkedin.com/in/mardoqueu-sousa)
